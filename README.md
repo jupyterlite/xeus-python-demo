@@ -8,7 +8,7 @@ xeus-python + JupyterLite deployed as a static site to GitHub Pages, for demo pu
 
 https://jupyterlite.github.io/xeus-python-demo/retro/notebooks/?path=demo.ipynb
 
-## How does it compare to the Pyodide kernel?
+## ≠ How does it compare to the Pyodide kernel?
 
 #### Pyodide kernel:
 
@@ -26,13 +26,13 @@ https://jupyterlite.github.io/xeus-python-demo/retro/notebooks/?path=demo.ipynb
 - **Supports** sleeping with ``from time import sleep``
 - **Supports** pre-installing packages from ``emscripten-forge`` and ``conda-forge``, by providing an ``environment.yml`` file defining the runtime environment
 
-## How to make your own deployment
+## 💡 How to make your own deployment
 
 ![Deploy your own](deploy.gif)
 
 Then your site will be published under https://{USERNAME}.github.io/{DEMO_REPO_NAME}
 
-## How to install extra packages
+## 📦 How to install extra packages
 
 You can pre-install extra packages for xeus-python by adding them to the ``environment.yml`` file.
 
