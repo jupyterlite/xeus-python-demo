@@ -8,9 +8,9 @@ xeus-python + JupyterLite deployed as a static site to GitHub Pages, for demo pu
 
 https://jupyterlite.github.io/xeus-python-demo/retro/notebooks/?path=demo.ipynb
 
-## How does it compare to the Pyolite kernel?
+## How does it compare to the Pyodide kernel?
 
-#### Pyolite:
+#### Pyodide kernel:
 
 - Is based on [Pyodide](https://github.com/pyodide/pyodide)
 - Uses [IPython](https://github.com/ipython/ipython) for the code execution (access to IPython magics, support for the inline Matplotlib backend, *etc*)
