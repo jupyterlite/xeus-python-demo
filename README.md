@@ -26,9 +26,11 @@ https://jupyterlite.github.io/xeus-python-demo/retro/notebooks/?path=demo.ipynb
 - **Supports** sleeping with ``from time import sleep``
 - **Supports** pre-installing packages from ``emscripten-forge`` and ``conda-forge``, by providing an ``environment.yml`` file defining the runtime environment
 
-## How to make your own
+## How to make your own deployment
 
-TODO
+![Deploy your own](deploy.gif)
+
+Then your site will be published under https://{USERNAME}.github.io/{DEMO_REPO_NAME}
 
 ## How to install extra packages
 
