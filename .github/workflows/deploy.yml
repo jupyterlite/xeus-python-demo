@@ -23,7 +23,7 @@ jobs:
       - name: Install mamba
         uses: mamba-org/setup-micromamba@v1
         with:
-          micromamba-version: '1.5.0'
+          micromamba-version: '1.5.0-0'
           environment-file: build-environment.yml
           cache-environment: true
 
