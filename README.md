@@ -42,13 +42,14 @@ For example, if you want to create a JupyterLite deployment with NumPy and Matpl
 name: xeus-python-kernel
 channels:
   - https://repo.mamba.pm/emscripten-forge
-  - https://repo.mamba.pm/conda-forge
+  - conda-forge
 dependencies:
+  - xeus-python
   - numpy
   - matplotlib
 ```
 
-Only ``no-arch`` packages from ``conda-forge`` and ``emscripten-forge`` can be installed.
+Only ``no-arch`` packages from ``conda-forge`` and packages from ``emscripten-forge`` can be installed.
 - **How do I know if a package is ``no-arch`` on ``conda-forge``?** ``no-arch`` means that the package is OS-independent, usually pure-python packages are ``no-arch``. To check if your package is ``no-arch`` on ``conda-forge``, check if the "Platform" entry is "no-arch" in the https://beta.mamba.pm/channels/conda-forge?tab=packages page. If your package is not ``no-arch`` but is a pure Python package, then you should probably update the feedstock to turn your package into a ``no-arch`` one.
 ![](noarch.png)
 - **How do I know if my package is on ``emscripten-forge``?** You can see the list of packages pubished on ``emscripten-forge`` [here](https://beta.mamba.pm/channels/emscripten-forge?tab=packages). In case your package is missing, or it's not up-to-date, feel free to open an issue or a PR on https://github.com/emscripten-forge/recipes.
