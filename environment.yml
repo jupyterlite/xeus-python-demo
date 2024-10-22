@@ -5,4 +5,9 @@ channels:
 dependencies:
   - python=3.11
   - xeus-python
-  - ipycanvas
+  - pandas
+  - ipywidgets
+  - pip
+  - pip:
+    - requests
+    - ../../buckaroo/dist/buckaroo-0.7.8-py3-none-any.whl  #relative path to a locally built wheel
